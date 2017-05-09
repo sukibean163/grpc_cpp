@@ -86,15 +86,15 @@ public:
       DetectedObject o;
       o.object_class = "xx";
       int i = 0;
-      o.bounding_box.x = i;
+      o.x = i;
       i++;
-      o.bounding_box.y = i;
+      o.y = i;
       i++;
-      o.bounding_box.width = i;
+      o.width = i;
       i++;
-      o.bounding_box.height = i;
+      o.height = i;
       i++;
-      //        cv::rectangle(img, o.bounding_box, cv::Scalar(255, 0, 0), 2);
+      //        cv::rectangle(img, o. cv::Scalar(255, 0, 0), 2);
 
       DetectData *res = response->add_data();
       res->set_type(o.object_class);
@@ -103,10 +103,10 @@ public:
       // res->set_width(3 * i);
       // res->set_height(4 * i);
 
-      res->set_x(o.bounding_box.x);
-      res->set_y(o.bounding_box.y);
-      res->set_width(o.bounding_box.width);
-      res->set_height(o.bounding_box.height);
+      res->set_x(o.x);
+      res->set_y(o.y);
+      res->set_width(o.width);
+      res->set_height(o.height);
     }
     std::cout << response->data_size() << std::endl;
 
