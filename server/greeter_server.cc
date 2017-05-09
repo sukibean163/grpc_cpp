@@ -53,6 +53,7 @@ using helloworld::HelloReply;
 using helloworld::Greeter;
 using namespace helloworld;
 
+#include "object.h"
 // #include "yolo.h"
 // #include <opencv2/opencv.hpp>
 // using namespace cv;
