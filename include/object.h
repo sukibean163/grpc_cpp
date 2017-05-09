@@ -2,7 +2,8 @@
 #define DARKNET_OBJECT_H
 
 // #include <opencv2/imgproc/imgproc.hpp>
-
+#include <iostream>
+using namespace std;
 struct DetectedObject
 {
     string object_class;
