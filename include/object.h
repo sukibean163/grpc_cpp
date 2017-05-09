@@ -5,7 +5,7 @@
 
 struct DetectedObject
 {
-    int object_class;
+    string object_class;
     float prob;
     int x;
     int y;
