@@ -53,9 +53,9 @@ using helloworld::HelloReply;
 using helloworld::Greeter;
 using namespace helloworld;
 
-#include "yolo.h"
-#include <opencv2/opencv.hpp>
-using namespace cv;
+// #include "yolo.h"
+// #include <opencv2/opencv.hpp>
+// using namespace cv;
 
 // Logic and data behind the server's behavior.
 class GreeterServiceImpl final : public Greeter::Service
