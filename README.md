@@ -1,4 +1,4 @@
-grpc server and client
+deep learning detect algorithm example with grpc server and client 
 
 ## How to build
 
